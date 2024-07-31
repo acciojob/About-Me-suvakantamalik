@@ -1,1 +1,32 @@
 
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 30px;
+}
+.left, .right{
+	width: 50%;
+	
+}
+.intro{
+	display: flex;
+	padding: 5PX;
+	margin: 5PX;
+}
+.contacts{
+	margin-left: 10PX;
+	margin-bottom: 0;
+}
+.logos-per{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logos{
+	display: flex;
+	flex-direction: row;
+}
+img{
+	width: 6rem;
+}
